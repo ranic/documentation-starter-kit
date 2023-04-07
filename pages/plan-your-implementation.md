@@ -10,13 +10,13 @@ updatedAt: "2023-03-26T23:45:51.525Z"
 Implementing a new tool can be daunting, but it doesn’t have to be. You can implement Mixpanel in a few different ways to ensure it fits with the rest of your tech stack seamlessly.
 
 # Already Collect Data With a CDP or In-House Tools?
-### Customer Data Platform (CDP)
+## Customer Data Platform (CDP)
 If you already send events to a CDP like [Segment](https://segment.com/docs/connections/destinations/catalog/actions-mixpanel/) or [Rudderstack](https://rudderstack.com/integration/mixpanel/), you can get up and running with Mixpanel in seconds.
 
-### Reverse ETL
+## Reverse ETL
 If you want a more out-of-the-box solution to load data from your warehouse, Mixpanel also connects to a variety of Reverse ETL tools including [Census](https://docs.getcensus.com/destinations/mixpanel) and [Hightouch](https://hightouch.io/docs/destinations/mixpanel/). These make it easy to route data from your warehouse to Mixpanel and all other tools in your stack.
 
-### Cloud
+## Cloud
 If you already collect events with your own internal systems, see our [Amazon S3](doc:s3-import) and [Google Cloud Storage](doc:gcs-import) guides to reliably load these events into Mixpanel.
 
 # Need To Start Tracking Product Data?
