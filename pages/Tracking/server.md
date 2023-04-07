@@ -29,6 +29,12 @@ gem install mixpanel-ruby
 ### Step 2: Track your first event
 
 You'll need your Project Token for this, which you can get [here](mixpanel.com/settings/project).
+```python
+from mixpanel import Mixpanel
+```
+
+
+# Blah
 [block:code]
 {
   "codes": [
