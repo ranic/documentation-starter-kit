@@ -5,6 +5,13 @@
     "type": "separator",
     "title": "Tracking"
   },
+  "Javascript": "javascript-quickstart",
+  "Server": "server",
+  "HTTP API": "cloud-ingestion",
+  "Mobile": "mobile",
+  "Integrations": "integrations",
+  "How Tos": "how-tos",
+  "Advanced": "advanced",
   "-- Analysis": {
     "type": "separator",
     "title": "Analysis"
