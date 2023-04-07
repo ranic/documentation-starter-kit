@@ -1,15 +1,20 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "index": "what-is-mixpanel",
+  "Plan Your Implementation": "plan-your-implementation",
+  "-- Themes": {
+    "type": "separator",
+    "title": "Tracking"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+  "-- Analysis": {
+    "type": "separator",
+    "title": "Analysis"
+  },
+  "-- Admin": {
+    "type": "separator",
+    "title": "Admin"
+  },
+  "-- Other Bits": {
+    "type": "separator",
+    "title": "Other Bits"
   }
 }
