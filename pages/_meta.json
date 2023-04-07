@@ -1,27 +1,4 @@
 {
   "index": "What is Mixpanel?",
-  "plan-your-implementation": "Plan Your Implementation",
-  "-- Themes": {
-    "type": "separator",
-    "title": "Tracking"
-  },
-  "javascript-quickstart": "Javascript",
-  "server": "Server",
-  "cloud-ingestion": "HTTP API",
-  "mobile": "Mobile",
-  "integrations": "Integrations",
-  "how-tos": "How Tos",
-  "advanced": "Advanced",
-  "-- Analysis": {
-    "type": "separator",
-    "title": "Analysis"
-  },
-  "-- Admin": {
-    "type": "separator",
-    "title": "Admin"
-  },
-  "-- Other Bits": {
-    "type": "separator",
-    "title": "Other Bits"
-  }
+  "plan-your-implementation": "Plan Your Implementation"
 }
