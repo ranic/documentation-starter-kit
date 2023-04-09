@@ -7,12 +7,12 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/ranic/documentation-starter-kit',
   },
   docsRepositoryBase: 'https://github.com/ranic/documentation-starter-kit/tree/main',
-  footer: {
-    text: 'Nextra Docs Template',
-  },
   sidebar: {
     toggleButton: true,
     defaultMenuCollapseLevel: 1,
+    titleComponent({ title, type, route }) {
+      return <> {route} </>
+    }
   },
 }
 
