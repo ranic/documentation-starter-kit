@@ -1,4 +1,8 @@
 {
+  "Tutorials": {
+      "type": "page",
+      "title": "Tutorials"
+  },
   "index": "What is Mixpanel?",
   "plan-your-implementation": "Plan Your Implementation",
   "Tracking": "Tracking",
