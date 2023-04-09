@@ -22,19 +22,27 @@
     "type": "separator",
     "title": "Analysis"
   },
-  "boards": "Boards",
-  "reports": "Reports",
-  "events": "Events",
-  "users": "Users",
-  "advanced-analysis": "Advanced",
+  "Boards": "Boards",
+  "Reports": "Reports",
+  "Events": "Events",
+  "Users": "Users",
+  "Analysis-Advanced": "Advanced Analysis",
 
   "-- Admin": {
     "type": "separator",
-    "title": "Analysis"
+    "title": "Admin"
   },
+  "data-governance": "Data Governance",
+  "Pricing-Plans": "Pricing & Plans",
+  "Organizations-Projects": "Organizations & Projects",
 
   "-- Other Bits": {
     "type": "separator",
     "title": "Other Bits"
-  }
+  },
+  "under-the-hood": "Under The Hood",
+  "data-pipelines": "Data Pipelines",
+  "cohort-syncs": "Cohort Syncs",
+  "privacy-and-security": "Privacy & Security",
+  "jql-overview": "JQL"
 }
