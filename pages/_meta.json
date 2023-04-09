@@ -1,4 +1,8 @@
 {
+  "tutorials": {
+    "title": "Tutorials",
+    "type": "page"
+  },
   "api-reference": {
     "title": "API Reference ↗",
     "type": "page",
