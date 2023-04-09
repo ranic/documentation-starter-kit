@@ -38,7 +38,6 @@ You can use Mixpanel's Server SDKs to send events from your backend servers to M
     </dependency>
    ```
   </Tab>
-```
 </Tabs>
 
 ### Track your first event
