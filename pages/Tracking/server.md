@@ -85,7 +85,7 @@ You'll need your Project Token for this, which you can get [here](mixpanel.com/s
 
 <Tabs items={['Python', 'Javascript', 'Ruby', 'Java']}>
   <Tab>
-  ```python Python
+  ```python
   from mixpanel import Mixpanel
 
   mp = Mixpanel("YOUR_TOKEN")
@@ -98,7 +98,7 @@ You'll need your Project Token for this, which you can get [here](mixpanel.com/s
   </Tab>
 
   <Tab>
-  ```javascript Node.js
+  ```javascript
   var Mixpanel = require('mixpanel');
 
   var mixpanel = Mixpanel.init('<YOUR_TOKEN>');
@@ -112,7 +112,7 @@ You'll need your Project Token for this, which you can get [here](mixpanel.com/s
   </Tab>
   
   <Tab>
-  ```ruby Ruby
+  ```ruby
   require 'mixpanel-ruby'
   mp = Mixpanel::Tracker.new(PROJECT_TOKEN)
 
@@ -123,7 +123,7 @@ You'll need your Project Token for this, which you can get [here](mixpanel.com/s
   ```
   </Tab>
   <Tab>
-  ```java Java
+  ```java
   import com.mixpanel.mixpanelapi.ClientDelivery;
   import com.mixpanel.mixpanelapi.MessageBuilder;
   import com.mixpanel.mixpanelapi.MixpanelAPI;
