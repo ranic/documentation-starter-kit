@@ -9,42 +9,11 @@
     "href": "https://developer.mixpanel.com/reference",
     "newWindow": true
   },
-  "-- Getting Started": {
-    "type": "separator",
-    "title": "Getting Started"
-  },
+
   "index": "What is Mixpanel?",
   "plan-your-implementation": "Plan Your Implementation",
-
   "Tracking": "Tracking",
-
-  "-- Platform": {
-    "type": "separator",
-    "title": "Analysis"
-  },
-  "Boards": "Boards",
-  "Reports": "Reports",
-  "Events": "Events",
-  "Users": "Users",
-  "advanced-analysis": "Advanced Analysis",
-
-  "-- Admin": {
-    "type": "separator",
-    "title": "Admin"
-  },
-  "data-governance": "Data Governance",
-  "Pricing-Plans": "Pricing & Plans",
-  "Organizations-Projects": "Organizations & Projects",
-  "SSO": "SSO",
-  "two-factor-authentication": "Two-Factor Authentication (2FA)",
-
-  "-- Other Bits": {
-    "type": "separator",
-    "title": "Other Bits"
-  },
-  "under-the-hood": "Under The Hood",
-  "data-pipelines": "Data Pipelines",
-  "cohort-syncs": "Cohort Syncs",
-  "privacy-and-security": "Privacy & Security",
-  "jql-overview": "JQL"
+  "Analysis": "Analysis",
+  "Admin": "Admin",
+  "Other Bits": "Other Bits"
 }
