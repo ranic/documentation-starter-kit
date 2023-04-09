@@ -13,8 +13,6 @@ You can use Mixpanel's Server SDKs to send events from your backend servers to M
 <Steps>
 ### Install the SDK
 <Tabs items={['Python', 'Javascript', 'Ruby', 'Java']}>
-  
-  
   <Tab>
   ```shell Python
   pip install mixpanel
@@ -24,6 +22,7 @@ You can use Mixpanel's Server SDKs to send events from your backend servers to M
   ```shell Javascript
   npm install mixpanel
   ```
+  </Tab>
   <Tab>
   ```shell Ruby
   gem install mixpanel-ruby
@@ -31,7 +30,7 @@ You can use Mixpanel's Server SDKs to send events from your backend servers to M
   </Tab>
   <Tab>
   ```xml Java
-  <!--Include the following in your project's pom.xml-->
+    <!--Include the following in your project's pom.xml-->
     <dependency>
       <groupId>com.mixpanel</groupId>
       <artifactId>mixpanel-java</artifactId>
@@ -47,69 +46,68 @@ You can use Mixpanel's Server SDKs to send events from your backend servers to M
 You'll need your Project Token for this, which you can get [here](mixpanel.com/settings/project).
 
 <Tabs items={['Python', 'Javascript', 'Ruby', 'Java']}>
-<Tab>
-```python Python
-from mixpanel import Mixpanel
+  <Tab>
+  ```python Python
+  from mixpanel import Mixpanel
 
-mp = Mixpanel("YOUR_TOKEN")
+  mp = Mixpanel("YOUR_TOKEN")
 
-# Note: you must supply the user_id who performed the event as the first parameter.
-mp.track(user_id, 'Signed Up',  {
-  'Signup Type': 'Referral'
-})
-```
+  # Note: you must supply the user_id who performed the event as the first parameter.
+  mp.track(user_id, 'Signed Up',  {
+    'Signup Type': 'Referral'
+  })
+  ```
   </Tab>
 
   <Tab>
+  ```javascript Node.js
+  var Mixpanel = require('mixpanel');
 
-```javascript Node.js
-var Mixpanel = require('mixpanel');
+  var mixpanel = Mixpanel.init('<YOUR_TOKEN>');
 
-var mixpanel = Mixpanel.init('<YOUR_TOKEN>');
-
-// Note: you must supply the user_id who performed the event in the `distinct_id` field
-mixpanel.track('Signed Up', {
-  'distinct_id': user_id,
-  'Signup Type': 'Referral'
-})
-```
-</Tab>
+  // Note: you must supply the user_id who performed the event in the `distinct_id` field
+  mixpanel.track('Signed Up', {
+    'distinct_id': user_id,
+    'Signup Type': 'Referral'
+  })
+  ```
+  </Tab>
   
-<Tab>
-```ruby Ruby
-require 'mixpanel-ruby'
-mp = Mixpanel::Tracker.new(PROJECT_TOKEN)
+  <Tab>
+  ```ruby Ruby
+  require 'mixpanel-ruby'
+  mp = Mixpanel::Tracker.new(PROJECT_TOKEN)
 
-# Note: you must supply the user_id who performed the event as the first parameter
-mp.track(user_id, 'Signed Up', {
-  'Signup Type' => 'Referral'
-})
-```
-</Tab>
-<Tab>
+  # Note: you must supply the user_id who performed the event as the first parameter
+  mp.track(user_id, 'Signed Up', {
+    'Signup Type' => 'Referral'
+  })
+  ```
+  </Tab>
+  <Tab>
+  ```java Java
+  import com.mixpanel.mixpanelapi.ClientDelivery;
+  import com.mixpanel.mixpanelapi.MessageBuilder;
+  import com.mixpanel.mixpanelapi.MixpanelAPI;
 
-```java Java
-import com.mixpanel.mixpanelapi.ClientDelivery;
-import com.mixpanel.mixpanelapi.MessageBuilder;
-import com.mixpanel.mixpanelapi.MixpanelAPI;
+  MessageBuilder messageBuilder = new MessageBuilder(PROJECT_TOKEN);
 
-MessageBuilder messageBuilder = new MessageBuilder(PROJECT_TOKEN);
+  // You can send properties along with events
+  JSONObject props = new JSONObject();
+  props.put("Signup Type", "Referral");
 
-// You can send properties along with events
-JSONObject props = new JSONObject();
-props.put("Signup Type", "Referral");
+  // Create an event
+  JSONObject sentEvent = messageBuilder.event(userId, "Signup", props);
 
-// Create an event
-JSONObject sentEvent = messageBuilder.event(userId, "Signup", props);
+  ClientDelivery delivery = new ClientDelivery();
+  delivery.addMessage(sentEvent);
 
-ClientDelivery delivery = new ClientDelivery();
-delivery.addMessage(sentEvent);
-
-// Use an instance of MixpanelAPI to send the messages to Mixpanel's servers.
-MixpanelAPI mixpanel = new MixpanelAPI();
-mixpanel.deliver(delivery);",
-```
-</Tab>
+  // Use an instance of MixpanelAPI to send the messages to Mixpanel's servers.
+  MixpanelAPI mixpanel = new MixpanelAPI();
+  mixpanel.deliver(delivery);",
+  ```
+  </Tab>
+</Tabs>
 </Steps>
 
 🎉 Congratulations, you've tracked your first event! You can see it in Mixpanel via the [Events](mixpanel.com/report/events) page. 
