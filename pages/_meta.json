@@ -1,4 +1,10 @@
 {
+  "api-reference": {
+    "title": "API Reference ↗",
+    "type": "page",
+    "href": "https://developer.mixpanel.com/reference",
+    "newWindow": true
+  },
   "-- Getting Started": {
     "type": "separator",
     "title": "Getting Started"
