@@ -26,7 +26,7 @@
   "Reports": "Reports",
   "Events": "Events",
   "Users": "Users",
-  "Analysis-Advanced": "Advanced Analysis",
+  "advanced-analysis": "Advanced Analysis",
 
   "-- Admin": {
     "type": "separator",
@@ -35,6 +35,8 @@
   "data-governance": "Data Governance",
   "Pricing-Plans": "Pricing & Plans",
   "Organizations-Projects": "Organizations & Projects",
+  "SSO": "SSO",
+  "two-factor-authentication": "Two-Factor Authentication (2FA)",
 
   "-- Other Bits": {
     "type": "separator",
