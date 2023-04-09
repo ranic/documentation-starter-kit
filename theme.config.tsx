@@ -16,6 +16,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/ranic/documentation-starter-kit'
   },
+  staticImage: true,
   docsRepositoryBase: 'https://github.com/ranic/documentation-starter-kit/tree/main',
   sidebar: {
     toggleButton: true,
