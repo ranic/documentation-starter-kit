@@ -19,7 +19,6 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/ranic/documentation-starter-kit/tree/main',
   sidebar: {
     toggleButton: true,
-    defaultMenuCollapseLevel: 1,
     titleComponent({ title, type, route }) {
       if (type !== 'separator' && route.match(/\//g) && route.match(/\//g).length == 1) {
       	return (
