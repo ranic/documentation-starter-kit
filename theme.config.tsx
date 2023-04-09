@@ -31,15 +31,7 @@ const config: DocsThemeConfig = {
 		          : 'nx-my-4'
 		      )}
 		    >
-		      {title ? (
-		        renderComponent(config.sidebar.titleComponent, {
-		          title,
-		          type: 'separator',
-		          route: ''
-		        })
-		      ) : (
-		        <hr className="nx-mx-2 nx-border-t nx-border-gray-200 dark:nx-border-primary-100/10" />
-		      )}
+            {title}
 		    </li>
 		  )
       }
