@@ -21,7 +21,7 @@ const config: DocsThemeConfig = {
     toggleButton: true,
     defaultMenuCollapseLevel: 1,
     titleComponent({ title, type, route }) {
-      if (type !== 'separator' && route.match(/\//g).length == 1) {
+      if (type !== 'separator' && route.match(/\//g) && route.match(/\//g).length == 1) {
       	return (
 		    <li
 		      className={cn(
