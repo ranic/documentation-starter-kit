@@ -1,8 +1,40 @@
 {
+  "-- Getting Started": {
+    "type": "separator",
+    "title": "Getting Started"
+  },
   "index": "What is Mixpanel?",
   "plan-your-implementation": "Plan Your Implementation",
-  "Tracking": "Tracking",
-  "Platform": "Analysis",
-  "Admin": "Admin",
-  "Other Bits": "Other Bits"
+
+  "-- Tracking": {
+    "type": "separator",
+    "title": "Tracking"
+  },
+  "javascript-quickstart": "Javascript",
+  "server": "Server",
+  "http-api": "HTTP API",
+  "mobile": "Mobile",
+  "integrations": "Integrations",
+  "how-tos": "How Tos",
+  "advanced": "Advanced",
+
+  "-- Platform": {
+    "type": "separator",
+    "title": "Analysis"
+  },
+  "boards": "Boards",
+  "reports": "Reports",
+  "events": "Events",
+  "users": "Users",
+  "advanced-analysis": "Advanced",
+
+  "-- Admin": {
+    "type": "separator",
+    "title": "Analysis"
+  },
+
+  "-- Other Bits": {
+    "type": "separator",
+    "title": "Other Bits"
+  }
 }
