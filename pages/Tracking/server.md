@@ -10,33 +10,72 @@ import { Callout, Tab, Tabs, Steps } from 'nextra-theme-docs'
 
 You can use Mixpanel's Server SDKs to send events from your backend servers to Mixpanel. We [recommend](doc:plan-your-implementation#need-to-start-tracking-product-data) server-side tracking, since it is more reliable and easier to maintain than web/mobile tracking.
 
+<Tabs items={['pnpm', 'npm', 'yarn']}>
+  <Tab>
+    ```bash
+    pnpm i next react react-dom nextra nextra-theme-docs
+    ```
+  </Tab>
+  <Tab>
+    ```bash
+    npm i next react react-dom nextra nextra-theme-docs
+    ```
+  </Tab>
+  <Tab>
+    ```bash
+    yarn add next react react-dom nextra nextra-theme-docs
+    ```
+  </Tab>
+</Tabs>
+
+
 <Steps>
+### Foo
+<Tabs items={['pnpm', 'npm', 'yarn']}>
+  <Tab>
+    ```bash
+    pnpm i next react react-dom nextra nextra-theme-docs
+    ```
+  </Tab>
+  <Tab>
+    ```bash
+    npm i next react react-dom nextra nextra-theme-docs
+    ```
+  </Tab>
+  <Tab>
+    ```bash
+    yarn add next react react-dom nextra nextra-theme-docs
+    ```
+  </Tab>
+</Tabs>
+
+  
 ### Install the SDK
 <Tabs items={['Python', 'Javascript', 'Ruby', 'Java']}>
   <Tab>
-  ```shell Python
-  pip install mixpanel
-  ```
+    ```shell
+    pip install mixpanel
+    ```
   </Tab>
   <Tab>
-  ```shell Javascript
-  npm install mixpanel
-  ```
+    ```shell
+    npm install mixpanel
+    ```
   </Tab>
   <Tab>
-  ```shell Ruby
-  gem install mixpanel-ruby
-  ```
+    ```shell
+    gem install mixpanel-ruby
+    ```
   </Tab>
   <Tab>
-  ```xml Java
-    <!--Include the following in your project's pom.xml-->
-    <dependency>
-      <groupId>com.mixpanel</groupId>
-      <artifactId>mixpanel-java</artifactId>
-      <version>1.4.4</version>
-    </dependency>
-   ```
+    ```xml
+      <!--Include the following in your project's pom.xml-->
+      <dependency>
+        <groupId>com.mixpanel</groupId>
+        <artifactId>mixpanel-java</artifactId>
+        <version>1.4.4</version>
+      </dependency>
+     ```
   </Tab>
 </Tabs>
 
