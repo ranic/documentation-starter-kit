@@ -6,12 +6,12 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/ranic/documentation-starter-kit',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
   docsRepositoryBase: 'https://github.com/ranic/documentation-starter-kit/tree/main',
   footer: {
     text: 'Nextra Docs Template',
+  },
+  sidebar: {
+    toggleButton: true,
   },
 }
 
